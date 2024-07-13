@@ -1,8 +1,8 @@
-class HabitTracker:
+class HabitTracker: #initializes an instance of an class
     def __init__(self):
-        self.habits = {}
+        self.habits = {} #Dictionary that stores habits as a key values
 
-    def add_habit(self, habit_name):
+    def add_habit(self, habit_name): #Adds new habit in the dictionary
         self.habits[habit_name] = []
 
     def mark_completed(self, habit_name, date):
